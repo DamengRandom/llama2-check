@@ -1,0 +1,18 @@
+{
+  "name": "hugging-face-trials",
+  "version": "1.0.0",
+  "description": "Llama inputs",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "llama": "node text-llama.js"
+  },
+  "keywords": [],
+  "author": "DamengRandom",
+  "license": "ISC",
+  "dependencies": {
+    "@inquirer/input": "^1.2.16",
+    "dotenv": "^16.3.1",
+    "node-fetch": "^3.3.2"
+  }
+}
